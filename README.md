@@ -17,7 +17,7 @@ A avaliação será baseada na sua capacidade de escrever um código simples, de
 - Banco: Escolha oque você quiser, recomendamos Mongo db!
 
 - Deploy completo obrigatório.
-- Deploy sugerido(free): Netlify, Google Cloud Run, Atlas
+- Deploy sugerido(free)(OPCIONAL): Netlify, Google Cloud Run, Atlas
 
 presentação e/ou não entrega caracteriza a eliminação do candidato.
 Entrega parcial serão aceitas, mas o objetivo eh que os requisitos obrigatórios sejam
@@ -51,7 +51,7 @@ O seu desafio deverá isso.
      - Apenas o dono da conta poderá atualizar a sua conta.
    - deletar produtos.
      - Apenas o dono da conta poderá atualizar o produto.
-   - todos os produtos devem ser possivel ser vendidos.
+   - todos os produtos devem ser possiveis ser vendidos.
    - ao acontecer uma venda faça o registro dela na fatura, caso o status da venda seja aprovada faça a referencia da fatura para o financeiro.
 4. (Opcional) Fatura.
    - a fatura fica antes do financeiro, ou seja caso o produto seja vendido mas o status dele seja diferente de aprovado ele será registrado apenas na fatura.
@@ -59,6 +59,10 @@ O seu desafio deverá isso.
 5. Financeiro
    - registre a venda no financeiro.
    - (Opcional faça isso caso você faça a perte da fatura) O registro no financeiro deve existir somente quando a compra estiver com status aprovado.
+
+#### Diferencial.
+
+Implementação de testes.
 
 # Front-end Requisitos
 
