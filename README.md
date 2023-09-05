@@ -1,6 +1,6 @@
 # Desafio estagio
 
-você terá uma semana para fazer esse desafio, isso a contagem se inicia quando você ganhar acesso ao repositorio, após ter acesso de fork nesse repositorio e faça-o, quando acabar envie para o leandro no discord.
+você terá uma semana para fazer esse desafio, a contagem se inicia quando você ganhar acesso ao repositorio, após ter acesso de fork nesse repositorio e faça-o, quando acabar envie para o leandro no discord.
 
 ## Contexto simplificado
 
