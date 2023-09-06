@@ -15,8 +15,6 @@ A avaliação será baseada na sua capacidade de escrever um código simples, de
 - Front: React + Axios
 - Back: Nestjs
 - Banco: Escolha oque você quiser, recomendamos Mongo db!
-
-- Deploy completo obrigatório.
 - Deploy sugerido(free)(OPCIONAL): Netlify, Google Cloud Run, Atlas
 
 presentação e/ou não entrega caracteriza a eliminação do candidato.
