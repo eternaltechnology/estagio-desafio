@@ -1,10 +1,11 @@
-# Desafio estagio
+# Desafio estágio
 
-você terá uma semana para fazer esse desafio, a contagem se inicia quando você ganhar acesso ao repositorio, após ter acesso de fork nesse repositorio e faça-o, quando acabar envie para o leandro no discord.
+Você terá 10 dias para fazer esse desafio, a contagem se inicia quando você ganhar acesso ao repositorio, após ter acesso de fork nesse repositorio e faça-o, quando acabar, marcaremos as proximas etapas...
 
 ## Contexto simplificado
 
-Nesse desafio você construirá uma versão de compras e vendas de produtos, tambem devera existir um financeiro que será resposavel para visualizar/armazenar as entradas e saidas de valores.
+Nesse desafio você construirá um sistema simplificado de gerenciamento de compras e vendas de produtos, tambem devera existir um financeiro que será resposavel para visualizar/armazenar as entradas(COMPRAS) e saidas(VENDAS) de novos produtos.
+O sistema deve conter um LOGIN usando JWT e possibilitar aos usuario criarem contas.
 
 ## Avaliação
 
@@ -15,52 +16,47 @@ A avaliação será baseada na sua capacidade de escrever um código simples, de
 - Front: React + Axios
 - Back: Nestjs
 - Banco: Escolha oque você quiser, recomendamos Mongo db!
-- Deploy sugerido(free)(OPCIONAL): Netlify, Google Cloud Run, Atlas
-
-presentação e/ou não entrega caracteriza a eliminação do candidato.
+  
+A apresentação e/ou não entrega caracteriza a eliminação do candidato.
 Entrega parcial serão aceitas, mas o objetivo eh que os requisitos obrigatórios sejam
 cumpridos
 
-# Back-end Requisitos
+# Back-end Requisitos OBRIGATÓRIOS
 
 O seu desafio deverá isso.
 
-1. Um CRUD Basico de Usuarios:
-   - criar usuario
+1. Um CRUD Basico de Usuários:
+   - criar usuário
      - utilize bcrypt para transformar a senha em hash
-   - atualizar usuario
+   - atualizar usuário.
+      - Apenas o dono da conta poderá atualizar a sua conta.
    - listar varios usuarios.
      - (Opcional) Caso queria implemente um search
-   - listar um usuario
-   - atualizar um usuario.
-     - Apenas o dono da conta poderá atualizar a sua conta.
+   - listar todos usuários
    - deletar usuario.
-     - Apenas o dono da conta poderá atualizar a sua conta.
+     - Apenas o dono da conta poderá deletar a sua conta.
+       
 2. Sistema de login com JWT.
    - [Crie um guard para proteger sua aplicação](https://docs.nestjs.com/guards).
 3. Um CRUD de produtos
    - criar produtos.
-     - o preço do produto não deve cadastrado abaixo de zero.
+     - o preço dos produtos não deve cadastrado abaixo de zero.
    - atualizar produtos.
    - listar varios produtos.
      - (Opcional) Caso queria implemente um search
    - listar um produtos
    - atualizar um produtos.
-     - Apenas o dono da conta poderá atualizar a sua conta.
    - deletar produtos.
-     - Apenas o dono da conta poderá atualizar o produto.
+        -SOFT DELETE
    - todos os produtos devem ser possiveis ser vendidos.
    - ao acontecer uma venda faça o registro dela na fatura, caso o status da venda seja aprovada faça a referencia da fatura para o financeiro.
-4. (Opcional) Fatura.
-   - a fatura fica antes do financeiro, ou seja caso o produto seja vendido mas o status dele seja diferente de aprovado ele será registrado apenas na fatura.
-   - tente evitar dizimas periodicas no banco, exemplo, caso o produto seja 100 reais e o usuario que estiver comprando escolha um parcelamento de 3 vezes, o produto ficara com um valor de 99 reais apos o parcelamento.
-5. Financeiro
-   - registre a venda no financeiro.
-   - (Opcional faça isso caso você faça a perte da fatura) O registro no financeiro deve existir somente quando a compra estiver com status aprovado.
+4. Financeiro
+   - registre a vendas e compras no financeiro.
 
 #### Diferencial.
 
 Implementação de testes.
+Criar figma para UI/UX
 
 # Front-end Requisitos
 
@@ -72,14 +68,17 @@ Requisitos Obrigatórios
    - Login com token JWT
    - Registrar
    - Permissionamento(Opcional)
-   - Se possível, use ContextAPI para armazenar as informações do usuário
+   - Use ContextAPI para armazenar as informações do usuário
 2. Design da aplicação
-   - Em relação ao design, fique a vontade para fazer do jeito que preferi mas que seja claro e intuitivo.
+   - Em relação ao UIUX, fique á vontade para fazer do jeito que preferir mas que seja claro e intuitivo.
    - Utilize MaterialUI
 3. Tela para produtos
    - Usuário deve poder criar, editar, deletar e listar todos os produtos fornecidos do backend
 4. Tela para financeiro
+5. Tela para criar novo usuário
+6. Tela para login
+7. Tela de controle de usuarios.
 
 # IMPORTANTE
 
-Caso tenha duvidas ou problemas com o projeto, NÃO EXITE EM TIRA-LAS NO NOSSO DISCORD.
+Caso tenha dúvidas ou problemas com o projeto, PERGUNTE NO NOSSO DISCORD.
