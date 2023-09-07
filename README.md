@@ -1,6 +1,6 @@
 # Desafio estágio
 
-Você terá 10 dias para fazer esse desafio, até 17/10/2023, inicie fazendo um FORK, mude seu repositório para PRIVADO, e inicie seu desafio, quando acabar, marcaremos as proximas etapas...
+Você terá 10 dias para fazer esse desafio, até 17/10/2023, inicie fazendo um FORK/CLONE, mude seu repositório para PRIVADO, e inicie seu desafio, quando acabar, marcaremos as proximas etapas...
 
 ## Contexto simplificado
 
