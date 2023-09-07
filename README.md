@@ -47,7 +47,6 @@ cumpridos
    - deletar produtos.
         -SOFT DELETE
    - todos os produtos devem ser possiveis ser vendidos.
-   - ao acontecer uma venda faça o registro dela na fatura, caso o status da venda seja aprovada faça a referencia da fatura para o financeiro.
 4. Financeiro
    - registre a vendas e compras no financeiro.
 
