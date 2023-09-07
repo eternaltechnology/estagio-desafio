@@ -42,7 +42,7 @@ cumpridos
    - atualizar produtos.
    - listar varios produtos.
      - (Opcional) Caso queria implemente um search
-   - listar um produtos
+   - listar um produto
    - atualizar um produtos.
    - deletar produtos.
         -SOFT DELETE
