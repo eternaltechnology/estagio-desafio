@@ -21,7 +21,7 @@ A apresentação e/ou não entrega caracteriza a eliminação do candidato.
 Entrega parcial serão aceitas, mas o objetivo eh que os requisitos obrigatórios sejam
 cumpridos
 
-# Back-end Requisitos OBRIGATÓRIOS
+# Back-end Requisitos
 
 O seu desafio deverá isso.
 
