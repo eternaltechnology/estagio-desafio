@@ -17,7 +17,7 @@ A avaliação será baseada na sua capacidade de escrever um código simples, de
 - Back: Nestjs
 - Banco: Escolha oque você quiser, recomendamos Mongo db!
   
-A apresentação e/ou não entrega caracteriza a eliminação do candidato.
+A não apresentação e/ou não entrega caracteriza a eliminação do candidato.
 Entrega parcial serão aceitas, mas o objetivo eh que os requisitos obrigatórios sejam
 cumpridos
 
