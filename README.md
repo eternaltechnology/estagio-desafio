@@ -23,8 +23,6 @@ cumpridos
 
 # Back-end Requisitos
 
-O seu desafio deverá isso.
-
 1. Um CRUD Basico de Usuários:
    - criar usuário
      - utilize bcrypt para transformar a senha em hash
