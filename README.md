@@ -43,21 +43,17 @@ cumpridos
    - listar varios produtos.
      - (Opcional) Caso queria implemente um search
    - listar um produto
-   - atualizar um produtos.
+   - atualizar produtos.
    - deletar produtos.
         -SOFT DELETE
    - todos os produtos devem ser possiveis ser vendidos.
 4. Financeiro
    - registre a vendas e compras no financeiro.
 
-#### Diferencial.
-
-Implementação de testes.
-Criar figma para UI/UX
 
 # Front-end Requisitos
 
-Criar um sistema que permita um gerente ter acesso a vendas de produtos do seu estabelecimento.
+Criar um sistema que permita aos usuarios terem acesso ao sistema
 
 Requisitos Obrigatórios
 
@@ -75,6 +71,11 @@ Requisitos Obrigatórios
 5. Tela para criar novo usuário
 6. Tela para login
 7. Tela de controle de usuarios.
+
+# Diferencial.
+
+Implementação de testes.
+Criar figma para UI/UX
 
 # IMPORTANTE
 
