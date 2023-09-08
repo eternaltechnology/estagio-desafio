@@ -2,6 +2,9 @@
 
 Você terá 10 dias para fazer esse desafio, até 17/9/2023 (10 dias), inicie fazendo um FORK/CLONE, mude seu repositório para PRIVADO, e inicie seu desafio, quando acabar, marcaremos as proximas etapas...
 
+Vou aumentar em 1 dia a entrega devido a algumas pessoas nao terem recebido as mensagens no whats
+Entrega ate dia 18/10/2023
+
 ## Contexto simplificado
 
 Nesse desafio você construirá um sistema simplificado de gerenciamento de compras e vendas de produtos, tambem devera existir um financeiro que será resposavel para visualizar/armazenar as entradas(COMPRAS) e saidas(VENDAS) de novos produtos.
